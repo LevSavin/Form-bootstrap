@@ -1,0 +1,29 @@
+{
+  "name": "form-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LevSavin/Form-bootstrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LevSavin/Form-bootstrap/issues"
+  },
+  "homepage": "https://github.com/LevSavin/Form-bootstrap#readme",
+  "devDependencies": {
+    "css-loader": "^5.2.4",
+    "mini-css-extract-plugin": "^1.5.1",
+    "webpack": "^5.36.1",
+    "webpack-cli": "^4.6.0",
+    "file-loader": "^6.2.0"
+  }
+}
